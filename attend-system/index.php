@@ -84,13 +84,13 @@ include('inc/header.php');
 				<p>
 					<h3>Teacher Login:</h3>
 					<strong>Email:</strong> nayaldaksh@gmail.com<br>
-					<strong>Password:</strong> 12345
+					<strong>Password:</strong> 123
 				</p>
 				<p>
 					<h3>Student Login:</h3>
 					<p>Comming Soon.....</p>
-					<strong>Email:</strong> example123@.com<br>
-					<strong>Password:</strong> 12345
+					<strong>Email:</strong> kalyani123@gmail.com<br>
+					<strong>Password:</strong> 123
 				</p>
 				</section>
             </div>
