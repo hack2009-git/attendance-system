@@ -20,9 +20,10 @@ http://localhost/attend-system
 show login page 
 Admin:
 admin123@gmail.com
-
+Pass: 123
 Teacher:
-
+nayaldaksh@gmail.com
+Pass: 123
 Student:
 kalyani123@gmail.com
-123
+Pass: 123
