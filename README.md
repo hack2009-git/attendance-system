@@ -1,7 +1,7 @@
 # attend-system
 usign, html, css, js, ajax and php with mysql
 
-
+-*************************************************
 Following Steps:
 Step 1:
 first download zip file then extract file 
@@ -17,13 +17,17 @@ then import '.Sql' file
 then last open your browser and type.. 
 http://localhost/attend-system
 
-show login page 
+******show login page******* 
+
 Admin:
 admin123@gmail.com
 Pass: 123
+*************************
 Teacher:
 nayaldaksh@gmail.com
 Pass: 123
+****************************
 Student:
 kalyani123@gmail.com
 Pass: 123
+***************************
