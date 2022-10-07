@@ -352,11 +352,11 @@ CREATE TABLE `sas_classes` (
 INSERT INTO `sas_classes` (`id`, `name`, `teacher_id`) VALUES
 (1, 'DBMS', 1),
 (2, 'JAVA', 1),
-(1, 'DSA', 1),
-(1, 'PYTHON', 1),
-(3, 'Pyhon', 1),
-(4, 'Dbms', 1),
-(5, 'Dsa', 1);
+(3, 'DSA', 1),
+(4, 'Software Testing', 1),
+(5, 'Pyhon', 1),
+(6, 'Dbms', 1),
+(7, 'AI/ML', 1);
 
 -- --------------------------------------------------------
 
@@ -369,12 +369,16 @@ CREATE TABLE `sas_students` (
   `name` varchar(40) NOT NULL,
   `gender` varchar(40) NOT NULL,
   `dob` date NOT NULL,
+  `photo` varchar(40) DEFAULT NULL,
   `mobile` int(10) UNSIGNED NOT NULL,
   `email` varchar(40) DEFAULT NULL,
   `current_address` varchar(40) DEFAULT NULL,
   `permanent_address` varchar(40) DEFAULT NULL,
   `father_name` varchar(255) NOT NULL,
+  `father_mobile` int(10) UNSIGNED NOT NULL,
+  `father_occupation` varchar(255) NOT NULL,
   `mother_name` varchar(255) NOT NULL,
+  `mother_mobile` int(10) UNSIGNED NOT NULL,
   `admission_no` int(11) NOT NULL,
   `roll_no` int(11) NOT NULL,
   `stream` int(10) UNSIGNED DEFAULT NULL,
